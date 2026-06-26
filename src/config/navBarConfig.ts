@@ -96,7 +96,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:qq",
 			},
 			{
-				name: "Firefly文档",
+				name: "文档",
 				url: "https://blog.yangfeiyue.bot.cd/",
 				external: true,
 				icon: "material-symbols:docs",
