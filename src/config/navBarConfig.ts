@@ -62,6 +62,8 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		url: "#",
 		icon: "material-symbols:info",
 		children: [
+			// 打赏
+			
 			// 关于页面
 			LinkPresets.About,
 		],
