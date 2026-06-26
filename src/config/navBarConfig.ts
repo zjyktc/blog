@@ -154,7 +154,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 	Sponsor: {
 		name: "",
 		url: "",
-		icon: "material-symbols:favorite",
+		icon: "",
 		pageKey: "",
 	},
 	Guestbook: {
