@@ -8,9 +8,10 @@ category: 文章示例
 draft: false
 ---
 
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="/images/36km1.png" width="200" height="260" ></div>
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="/images/36km2.png" width="200" height="260" ></div>
-<!-- 新增：清除浮动，解决排版错位 -->
-<div style="clear:both;"></div>
+<div style="display: flex; gap: 20px; justify-content: flex-start;">
+  <img src="/images/36km1.png" style="width: 200px; height: 260px;">
+  <img src="/images/36km2.png" style="width: 200px; height: 260px;">
+</div>
+
 
 你接下来的正文内容写在这里...
