@@ -8,10 +8,9 @@ category: 文章示例
 draft: false
 ---
 
-## 跑步配图
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;">
-  
-![示例1](/images/36km1.png)
-  
-![示例2](/images/36km2.png)
-</div>
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="/images/36km1.png" width="200" height="260" ></div>
+<div style="float:left;border:solid 1px 000;margin:2px;"><img src="/images/36km2.png" width="200" height="260" ></div>
+<!-- 新增：清除浮动，解决排版错位 -->
+<div style="clear:both;"></div>
+
+你接下来的正文内容写在这里...
