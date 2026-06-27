@@ -98,7 +98,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	// 	icon: "material-symbols:docs",
 	// });
 
-		// 关于及其子菜单
+	// 关于及其子菜单
 	links.push({
 		name: "关于",
 		url: "#",
