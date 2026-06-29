@@ -56,6 +56,40 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
+	// 自定义导航栏链接
+	links.push({
+		name: "链接",
+		url: "#",
+		icon: "material-symbols:link",
+		// 子菜单
+		children: [
+			{
+				name: "GitHub",
+				url: "https://github.com/",
+				external: true,
+				icon: "fa7-brands:github",
+			},
+			{
+				name: "Gitee",
+				url: "https://gitee.com/",
+				external: true,
+				icon: "fa7-brands:gitee",
+			},
+			{
+				name: "QQ交流群",
+				url: "https://qm.qq.com/q/",
+				external: true,
+				icon: "fa7-brands:qq",
+			},
+			{
+				name: "文档",
+				url: "https://blog.yangfeiyue.bot.cd/",
+				external: true,
+				icon: "material-symbols:docs",
+			},
+		],
+	});
+
 	// 关于及其子菜单
 	links.push({
 		name: "关于",
@@ -70,44 +104,10 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
-	// 自定义导航栏链接
-	links.push({
-		name: "链接",
-		url: "#",
-		icon: "material-symbols:link",
-		// 子菜单
-		children: [
-			{
-				name: "GitHub",
-				url: "https://github.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:github",
-			},
-			{
-				name: "Gitee",
-				url: "https://gitee.com/CuteLeaf/Firefly",
-				external: true,
-				icon: "fa7-brands:gitee",
-			},
-			{
-				name: "QQ交流群",
-				url: "https://qm.qq.com/q/ZGsFa8qX2G",
-				external: true,
-				icon: "fa7-brands:qq",
-			},
-			{
-				name: "Firefly文档",
-				url: "https://docs-firefly.cuteleaf.cn",
-				external: true,
-				icon: "material-symbols:docs",
-			},
-		],
-	});
-
 	// 文档链接
 	// links.push({
 	// 	name: "文档",
-	// 	url: "https://docs-firefly.cuteleaf.cn",
+	// 	url: "https://blog.yangfeiyue.bot.cd/",
 	// 	external: true,
 	// 	icon: "material-symbols:docs",
 	// });
