@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "欢迎来到我的博客",
 
 	// 站点 URL
-	site_url: "https://blog.yangfeiyue.bot.cd",
+	site_url: "https://blog.yangfeiyue.cc.cd",
 
 	// 站点描述
 	description:
